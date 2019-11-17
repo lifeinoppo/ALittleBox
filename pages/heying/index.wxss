@@ -1,0 +1,20 @@
+/**index.wxss**/
+page{
+  width: fill-content; height: fill-conent; 
+  background-image: url(https://s2.ax1x.com/2019/11/11/MlNa9K.md.png);
+  /** background-image: url(https://s2.ax1x.com/2019/10/27/KsMlwj.md.jpg); **/
+  background-repeat:no-repeat; 
+  background-size:100% 100%;
+  border-top: 1rpx solid #ffd8a2;
+}
+.takephoto{
+  width: 100rpx; height: 100rpx;
+  border-radius: 999px; 
+  box-shadow: 0 0 50rpx #ffd8a2;
+  position: absolute; left: 45%; top: 15%;
+   
+}
+.takephoto_txt{
+  margin-top: 220rpx; text-align: center; color: #333;
+  font-size: 11pt;
+}

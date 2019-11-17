@@ -1,0 +1,26 @@
+/* pages/takePhoto/takePhoto.wxss */
+page{
+  width: 100%; 
+  height: 100%; 
+  /* background: #fe9d20; */
+}
+
+.myCanvas {
+  position: absolute;
+  width: 100%; 
+  height: 100%; 
+}
+
+.scroll-view{
+  height: 200px;
+  width: 100%;
+  white-space: nowrap;
+}
+
+.scroll-view-item_H{
+  width: auto;
+  height: 200px;
+  display: inline-block;
+}
+
+

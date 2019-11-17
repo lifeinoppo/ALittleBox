@@ -1,0 +1,39 @@
+<!--pages/takePhoto/takePhoto.wxml-->
+  <canvas canvas-id='myCanvas' style='width:{{canvasWidth}}px; height:{{canvasHeight}}px'  disable-scroll='true'>
+  </canvas>
+
+ <scroll-view class="scroll-view" scroll-x='{{true}}' scroll-with-animation='{{true}}' style="height:200px" scroll-into-view="red" bindscroll="getSelectItem">
+     <!--view id="blue" class="scroll-view-item_H bc_blue">
+    <src='https://ws4.sinaimg.cn/large/006tNbRwgy1fvuvkb1jooj30fg0hi490.jpg' mode='aspectFit'></image>
+    </view-->
+     <view id="blue" class="scroll-view-item_H bc_blue">
+    <image src='https://ws4.sinaimg.cn/large/006tNbRwgy1fvux77194yj30a60eo7bk.jpg' mode='aspectFit'></image>
+    </view>
+     <!--view id="blue" class="scroll-view-item_H bc_blue">
+    <image src='https://ws2.sinaimg.cn/large/006tNbRwgy1fvuvi1w857j30fk0g07dm.jpg' mode='aspectFit'></image>
+    </view>
+     <view id="blue" class="scroll-view-item_H bc_blue">
+    <image src='https://ws2.sinaimg.cn/large/006tNbRwgy1fvux7o67gyj30720aw7a4.jpg' mode='aspectFit'></image>
+    </view>
+     <view id="blue" class="scroll-view-item_H bc_blue">
+    <image src='https://ws3.sinaimg.cn/large/006tNbRwgy1fvuvhqbuq9j30fa0f211f.jpg' mode='aspectFit'></image>
+    </view>
+     <view id="blue" class="scroll-view-item_H bc_blue">
+    <image src='https://ws4.sinaimg.cn/large/006tNbRwgy1fvux7va4fxj308y0c2n53.jpg' mode='aspectFit'></image>
+    </view>
+    <view id="blue" class="scroll-view-item_H bc_blue">
+    <image src='https://ws4.sinaimg.cn/large/006tNbRwgy1fvuutm5oa3j30gi0gw49f.jpg' mode='aspectFit'></image>
+    </view>
+     <view id="blue" class="scroll-view-item_H bc_blue">
+    <image src='https://ws1.sinaimg.cn/large/006tNbRwgy1fvux9f66j6j30by0lkk0a.jpg' mode='aspectFit'></image>
+    </view>
+     <view id="blue" class="scroll-view-item_H bc_blue">
+    <image src='https://ws2.sinaimg.cn/large/006tNbRwgy1fvuvmzzdiij30hq0e2anb.jpg' mode='aspectFit'></image>
+    </view-->
+     <view id="blue" class="scroll-view-item_H bc_blue">
+    <image src='https://ws3.sinaimg.cn/large/006tNbRwgy1fvuvnivjg4j30e60fegtz.jpg' mode='aspectFit'></image>
+    </view>
+     <!--view id="blue" class="scroll-view-item_H bc_blue">
+    <image src='https://ws1.sinaimg.cn/large/006tNbRwgy1fvuvosh4z4j30aa0b47ax.jpg' mode='aspectFit'></image>
+    </view-->
+</scroll-view>

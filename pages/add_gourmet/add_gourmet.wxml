@@ -1,0 +1,36 @@
+<view class="main">
+
+<view style="padding:10px">
+    <button bindtap="chooseLocation" type="primary">重新选择位置</button>
+    <view style="height:8px"></view>
+    <text class="bold">地址：</text>
+    <input bindinput="inputAddress" value="{{address}}" maxlength="140" style="height:2em" class="input" />
+    <view style="height:5px"/>
+    <text class="bold">美食名称：</text>
+    <input bindinput="inputTitle" value="{{title}}" maxlength="140" style="height:2em" class="input" />
+    <view style="height:5px"/>
+    <text class="bold">简单备注一下：</text>
+    <textarea bindinput="inputDesc" maxlength="500" class="input" />
+</view>
+
+
+<view style="padding: 10px" class="center">
+
+    <view style="height:8px"/>
+    <view class="tips">美食类请备注“美食”，风景类请备注“风景”，气味类备注“气味”</view>
+    <view>
+        <button type="primary" bindtap="add_pics">添加图片</button>
+        <text class="pics_added">已添加{{urls.length}}/{{total_pics_number}}张图片</text>
+    </view>
+
+    <view class="center">
+        <view style="height:8px"/>
+        <button bindtap="add_gourmet" style="width:5em" type="primary">提交</button>
+        <view style="height:12em"/>
+    </view>
+
+</view>
+
+<include src="../common/loading.wxml"/>
+
+</view>

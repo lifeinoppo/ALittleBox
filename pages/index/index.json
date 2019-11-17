@@ -1,0 +1,6 @@
+{
+    "navigationBarTitleText": "光影万年",
+    "usingComponents": {
+      "brickLayout": "plugin://brickLayout/brickLayout"
+    }
+}

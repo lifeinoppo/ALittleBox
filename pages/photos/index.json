@@ -1,0 +1,6 @@
+{
+    "navigationBarTitleText": "手账日常",
+    "usingComponents": {
+      "brickLayout": "plugin://brickLayout/brickLayout"
+    }
+}

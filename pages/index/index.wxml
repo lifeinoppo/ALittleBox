@@ -1,0 +1,22 @@
+<!--pages/invitation/index.wxml-->
+ <view class="search-area">
+        <form bindsubmit="search">
+            <view class="search-type" bindtap="changeSearchType">剧情</view>
+            <input class="search-txt" name="keyword" placeholder="请输入感兴趣的电影元素"/>
+            <button class="search-btn" formType="submit">搜索</button>
+        </form>
+</view>
+ <view class="search-keyword">
+        <view class="search-keyword-title">热门标签</view>
+        <view wx:for="{{hotTag}}" wx:for-item="hotTagItem" wx:key="hotTagItem" class="search-keyword-item" data-keyword="{{hotTagItem}}" bindtap="searchByTag">{{hotTagItem}}</view>     
+<brickLayout
+  dataSet="{{dataSet}}"
+  option="{{brick_option}}"
+  bind:tapCard="tapCard"
+  bind:tapLike="tapLike"
+  bind:tapUser="tapUser"
+  bind:onCardExpanded="onCardExpanded"
+/>
+</view>
+
+

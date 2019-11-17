@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "文章千古",
+  "usingComponents": {
+    "brickLayout": "plugin://brickLayout/brickLayout"
+  }
+}

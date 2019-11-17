@@ -1,0 +1,34 @@
+.center{
+    text-align: center;
+}
+
+#btn_complete{
+    width: 5em;
+    margin-top: 10px;
+}
+
+.bold{
+    font-weight: 700;
+}
+.red{
+    color: red;
+}
+
+.input{
+    width: 100%;
+    border: 1px solid lightgreen;
+}
+
+.thumbnail{
+    margin: 2px;
+}
+
+.tips{
+    color: gray;
+    font-size: 0.8em;
+    padding: 8px;
+}
+
+.pics_added{
+    padding: 5px;
+}

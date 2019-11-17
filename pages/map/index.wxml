@@ -1,0 +1,24 @@
+
+<!-- pages/map/index.wxml -->
+<view class="container">
+  <image src='/images/t1.png' class='t1'></image>
+  <view class="map">
+    <map id="map" longitude="{{lng}}" latitude="{{lat}}" scale="18" markers="{{markers}}" bindmarkertap="markertap" show-location ></map>
+  </view>
+  <view class="tel">
+    <view class="tel_he" wx:if="{{mainInfo.he_tel}}">
+      <view class="call" bindtap="addPoint">
+        <image src="/images/he.jpg" width="100%" />
+      </view>
+      呼叫新郎
+    </view>
+    <view class="tel_she" wx:if="{{mainInfo.she_tel}}">
+      <view class="call" bindtap="showPoint">
+        <image src="/images/she.jpg" width="100%" />
+      </view>
+      呼叫新娘
+    </view>
+  </view>
+  <view class='copyright' wx:if="{{mainInfo.she_tel}}">对的时间，对的地点，遇见对的味道</view>
+  <view class='copyright'>@2019.7</view>
+</view>
