@@ -72,7 +72,7 @@ Page({
         var base64_data = wx.getFileSystemManager().readFileSync(filePath,"base64");
         
         // added end by jxc 
-        var access_token = '24.f5774768a6dee7a8b27660a663325291.2592000.1541078478.282335-14339748';
+        var access_token = '';
 
         wx.request({
           url: 'https://aip.baidubce.com/rest/2.0/face/v3/detect?access_token='+access_token,
@@ -98,7 +98,7 @@ Page({
               var face_width = res.data.result.face_list[0].location.width;
               var face_height = res.data.result.face_list[0].location.height + face_bias;
               var maleorfemale = res.data.result.face_list[0].gender.type; // 自动判断男性或女性
-              console.log("male or female : "+maleorfemale)
+              // console.log("male or female : "+maleorfemale)
               var des_head_ratio = 6.4;
               var des_head_width = width / des_head_ratio;
               var des_head_height = width / des_head_ratio;
